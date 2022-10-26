@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .btn {
+    @apply text-sm my-8 p-4 bg-indigo-500 rounded-full text-white font-semibold w-44 mx-auto;
+  }
+
+  .program-card {
+    @apply w-full flex flex-col justify-center border-2 rounded-md shadow-sm;
+  }
+
+  .program-title {
+    @apply text-2xl text-slate-800 text-center font-semibold pb-3;
+  }
+
+  .program-description {
+    @apply text-lg text-slate-500 text-center px-4 font-normal;
+  }
+
+  .chip-container {
+    @apply flex justify-center flex-wrap gap-2 px-4 pt-4;
+  }
+
+  .chip {
+    @apply text-sm rounded-lg bg-slate-500 text-white p-1.5 font-semibold;
+  }
+}
