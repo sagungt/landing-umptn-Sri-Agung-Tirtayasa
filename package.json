@@ -1,0 +1,11 @@
+{
+  "name": "landing-umptn",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "generate": "tailwindcss -i ./src/input.css -o ./dist/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
